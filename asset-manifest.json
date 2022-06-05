@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-BauCua/static/css/main.5b4b9404.css",
+    "main.js": "/React-BauCua/static/js/main.0e2cd4e3.js",
+    "static/js/787.ee564605.chunk.js": "/React-BauCua/static/js/787.ee564605.chunk.js",
+    "static/media/Pony.ttf": "/React-BauCua/static/media/Pony.99ddd1e5ee531d1eb8a2.ttf",
+    "static/media/logo.svg": "/React-BauCua/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-BauCua/index.html",
+    "main.5b4b9404.css.map": "/React-BauCua/static/css/main.5b4b9404.css.map",
+    "main.0e2cd4e3.js.map": "/React-BauCua/static/js/main.0e2cd4e3.js.map",
+    "787.ee564605.chunk.js.map": "/React-BauCua/static/js/787.ee564605.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b4b9404.css",
+    "static/js/main.0e2cd4e3.js"
+  ]
+}
