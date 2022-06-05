@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Pony";
+  src: url("./Pony.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fe9a01;
+}
+
+.game-bc {
+  font-family: "Pony";
+}
+
+.scene {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  perspective: 50px;
+}
+
+.cube {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform infinite;
+  transform: translateZ(-25px);
+}
+
+.cube__face {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  line-height: 40px;
+  font-size: 5px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.front {
+  transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(25px);
+}
+.right {
+  transform: rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(25px);
+}
+.back {
+  transform: rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(25px);
+}
+.left {
+  transform: rotateY(-90deg) rotateX(0deg) rotateZ(0deg) translateZ(25px);
+}
+.top {
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translateZ(25px);
+}
+.bottom {
+  transform: rotateX(-90deg) rotateY(0deg) rotate(0deg) translateZ(25px);
+}
+
+label {
+  margin-right: 10px;
+}
+
+@media (max-width: 1280px) {
+  .plate-border {
+    width: 200px !important;
+  }
+  .scene {
+    margin-left: 2px !important;
+  }
+  .total-game {
+    width: 22% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-list {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .bg-title-list {
+    width: 66% !important;
+    line-height: 2.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-game {
+    width: 77% !important;
+  }
+  .total-game {
+    width: 34% !important;
+  }
+  .plate-border {
+    width: 180px !important;
+    height: 280px !important;
+  }
+  .bg-title-list {
+    width: 80% !important;
+    line-height: 2.5rem !important;
+  }
+  .img-playgame {
+    width: 77% !important;
+  }
+  .btn-playagain {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-img {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .img-list {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .plate-main {
+    margin-left: 50% !important;
+  }
+  .plate-border {
+    width: 120% !important;
+    height: 240% !important;
+  }
+  .scene {
+    margin-left: 40% !important;
+  }
+  .img-playgame {
+    width: 85% !important;
+    margin-left: 55px;
+  }
+}
