@@ -13,4 +13,8 @@ export const dataGameDefault = [
   { id: 1, img: './img/bau.png', cuoc: 0 },
 ];
 
+<<<<<<< HEAD
 console.log('hiasd');
+=======
+console.log('asdhadhash');
+>>>>>>> test2
